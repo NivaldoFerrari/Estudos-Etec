@@ -1,0 +1,39 @@
+body{
+    height:100vh;
+    background: linear-gradient(25deg,rgb(0,0,0),rgb(78, 4, 4));
+    background-repeat: no-repeat ;
+    text-align: center;
+    color: rgb(124, 21, 21);
+
+}
+form{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    margin: 5em;
+    border-radius: 0.3em;
+}
+
+label{
+    font-size: 1.4em;
+}
+input, select{
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+    
+    
+}
+
+
+
+input:hover{
+    background-color:rgb(124, 21, 21);
+}
+
+select:hover{
+    
+    background-color: rgb(124, 21, 21);
+
+}

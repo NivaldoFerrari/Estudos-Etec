@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+<html>
+        <head>
+                <style> 
+                        body {
+                                background-color: #bebebe;
+                        }
+                </style>
+                <title>"Padaria do Zuin" </title>
+
+                <meta charset="UTF-8">
+        </head>
+        
+        <body>
+           
+                <h1> Padaria do Zuin </h1>
+
+                <script>
+
+                        let caixa = 30;
+
+                        let pao = 1;
+
+                        let leite = 5;
+
+                        let salgado = 3;
+
+                        let qtdPao = parseInt(prompt( "O Pão custa 1 R$\nQuantos Pães vai levar?"));
+
+                        let qtdLeite = parseInt(prompt("O Leite custa 5 R$\nQuantos Leites vai levar?"));
+
+                        let qtdSalgado = parseInt(prompt("O Salgado custa 3 R$\nQuantos Salgados vai levar?"));
+
+                        document.write("Qauntidade de pão:" + qtdPao + "<br>");
+                                
+                        document.write("Qauntidade de Leite: " + qtdLeite + "<br>");        
+                                
+                        document.write("Qauntidade de Salgado: " + qtdSalgado + "<br>");
+
+                        let total = (qtdPao * pao) + (qtdLeite*leite) + (qtdSalgado*salgado);
+
+                        document.write( "total a pagar: " + total + "<br>");
+
+                        let saldo = parseInt(prompt("sua conta deu um total de " + total + "R$\nQual o valor vc tem pra pagar?"));
+
+                        if (saldo < total && (saldo - total)!= 0) {
+                                alert("valor insuficiente")
+
+                        } else  {
+                                if ((saldo - total)!= 0) {
+                                        document.write( "Seu troco é de: " +(saldo- total))
+                                }
+                                
+
+                        };
+
+                        let troco = saldo- total;
+                        
+                        if(troco == 0){
+                                document.write("<br> Não há troco")
+
+                        }
+
+                        
+                        
+                        if(troco > caixa){
+                                alert ("aceita troco em balas ?")
+                                document.write("<br> Seu troco é de 30 R$ em dinheiro e "
+                                 + (troco - caixa) + "R$ em balas"  )
+                        };
+
+
+                
+
+
+                </script>
+        </body>
+</html>

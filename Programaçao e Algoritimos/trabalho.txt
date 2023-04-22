@@ -1,0 +1,115 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+//#include<conio.h>
+
+#include <math.h>
+int main()
+{
+
+    
+   
+	float valor, centimetro, milimetro;
+
+    
+  
+ 	printf("Digite o valor em Metros: ");
+ 	
+	scanf("%f",&valor);
+
+    
+
+    	centimetro = valor* 100;
+
+    	milimetro = valor * 1000;
+
+    
+ 
+   	printf("\n o valor em Centimetro é: %.0f",centimetro);
+    
+	printf("\n o valor em Milimetro é: %.0f",milimetro);
+
+}
+    
+
+
+int main() {
+
+    //1) Perguntar qual a tabuada para o usuario
+    //   e armazenar o valor numa variavel
+
+    cout << "Por favor, informe a tabuada que voce deseja: " << endl;
+
+    int n = 0;
+    cin >> n;
+
+    //2) Implementação de um laço de repetição FOR
+    for(int i = 1; i<=10; i++){
+        //3) Imprimir a tabuada na tela
+        cout << i << " x " << n << " = " << i*n << endl;
+    }
+
+
+    system("pause");
+    return 0;
+
+}
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num;
+
+    cout << "Digite um número para a tabuada: ";
+    cin >> num;
+
+    for (int i = 1; i <= 10; i++) {
+        cout << num << " x " << i << " = " << num*i << endl;
+    }
+
+    return 0;
+}
+
+
+
+int main() {
+
+     
+    
+
+float reais,moedaD=4.92,moedaI=0.0367,moedaE=5.40 ,moedaP=0.0228,moedaB=0.0000020053304, dolar, iene,euro,peso,bolivar;
+    
+    
+printf("Digite o valor em Reais: ");
+    
+scanf("%f",&reais);
+    
+ 
+   dolar = reais * moedaD;
+  
+  iene = reais * moedaI;
+ 
+   euro = reais * moedaE;
+ 
+   peso = reais * moedaP;
+    
+bolivar = reais * moedaB;
+    
+    
+printf("Os valores para cada moeda \n");
+ 
+   printf("\nDolar: %f", dolar);
+ 
+   printf("\nIene: %f",iene);
+ 
+   printf("\nEuro: %f",euro);
+   
+ printf("\nPeso(ARG): %f",peso);
+
+    printf("\nBolivar: %f", bolivar);
+ 
+
+}
+    

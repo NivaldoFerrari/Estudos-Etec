@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: gray;
+    margin-left:40%;
+     
+}
+textarea{
+    background-color: rgb(54, 35, 90);
+    border-radius: 15px;
+}
+input{
+    border-radius: 15px;
+}

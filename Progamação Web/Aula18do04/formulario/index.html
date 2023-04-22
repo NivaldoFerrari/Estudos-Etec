@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scprip.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+  
+    <form name="form1" method="post" >
+    
+        <label>Nome: <input type="text" name="fnome" size="50" maxlength="50"></label>
+
+        <label><br> Telefone: <input type="number" name="ftelefone" size="15" maxlength="15"></label>
+
+        <label><br> Sexo:
+
+            <select name="fsexo" >
+
+                <option value="escolha">[ Escolha] </option>
+                <option value="masc">Masculino </option>
+                <option value="Feminino">Feminino </option>
+
+            </select>
+            
+        </label>
+
+        <br><input type="submit" name= "form1"value="Gravar" onclick="validaFormulario()" >
+        <input type="submit" name= "form1"value="Limpar" >
+    
+    </form>
+
+   
+
+</body>
+</html>

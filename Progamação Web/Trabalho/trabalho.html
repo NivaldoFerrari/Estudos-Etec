@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabalho.css">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Formulário do Aluno:</H1>
+    <form name="formAluno" method="post" >
+        <P>Nome: </P> <input type="text" maxlength="30">
+        <P>E-mail: </P> <input type="email" maxlength="30">
+        <P>Cidade:  <input type="text" maxlength="30">
+       <div class="estado"> 
+        Estado:<select id="estado" name="estado">
+            <option value="Escolha" selected="Escolha">Escolha</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+        
+    </P>
+        
+        
+        <p>Sexo:</p> <input type="radio" id="op1" name="sex" value="op1">
+        <label for="op1">Masculino</label>
+         <input type="radio" id="op2" name="sex" value="op2">
+        <label for="op2">Feminino</label>
+    
+        <P>Curso: <select id="estado" name="estado">
+            <option value="Escolha" selected="Escolha">Escolha</option>
+            <option value="ADM">ADM</option>
+            <option value="LOG">LOG</option>
+            <option value="ENF">ENF</option>
+            <option value="SJU">SJU</option>
+            <option value="QUI">QUI</option>
+            <option value="RH">RH</option>
+            <option value="DS">DS</option>
+        </select>
+
+        Módulo: <select id="estado" name="estado">
+            <option value="Escolha" selected="Escolha">Escolha</option>
+            <option value="1">1°</option>
+            <option value="2">2°</option>
+            <option value="3">3°</option>
+
+        </select>
+        </P>
+
+    
+
+    <p>Diciplinas:</p>
+
+    <table >
+        <tr>
+            <td><input type="checkbox">ING</td>
+            <td><input type="checkbox">ETC</td>
+            <td><input type="checkbox">PW</td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox">BD</td>
+            <td><input type="checkbox">DW</td>
+            <td><input type="checkbox">FI</td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox">OSA</td>
+            <td><input type="checkbox">LP</td>
+            
+        </tr>
+
+    </table>
+
+    <p>Professores:</p>
+
+    <table >
+        <tr>
+            <td><input type="checkbox">ING</td>
+            <td><input type="checkbox">ROBERTO</td>
+            <td><input type="checkbox">RICARDO</td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox">ANDERSON</td>
+            <td><input type="checkbox">NETO</td>
+            <td><input type="checkbox">VITOR</td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox">VITOR</td>
+            <td><input type="checkbox">ZUIN</td>
+            
+        </tr>
+
+    </table>
+
+    <p>Observações:</p>
+    <textarea name="obs" id="" cols="30" rows="10"></textarea>
+    
+    <br>
+    <input type="submit" value="gravar">
+
+    <input type="reset" value="limpar">
+
+    </form>
+</body>
+</html>

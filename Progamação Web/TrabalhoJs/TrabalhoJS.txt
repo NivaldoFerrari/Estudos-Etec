@@ -1,0 +1,8 @@
+1)Oque pode ser feito com Js?
+R: Criação de sites interativos e criativos na internet, aplicativos móveis, automatização de tarefas e etc.
+
+2)O <scrip> deverá ser escrito no <body> ou no <head>?
+R: Dá pra se colocar nas duas tags, mas, deve-se avaliar aonde colocar o Js pois ele pode travar o carregamento dá pagina.
+
+3)o JavaScrip (hoje em dia), serve tanto para o "lado do cliente" como também para o "lado dos servidores"?
+R: Sim, com a popularização dessa linguagem novas funções foram adicionadas com o tempo, hoje em dia elá é umas das linguagens mais populares sendo utulizada em quase tudo.
