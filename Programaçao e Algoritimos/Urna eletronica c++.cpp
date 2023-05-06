@@ -7,7 +7,7 @@ int main()
 	
 	while(i <= qtdEleitor )
 	{
-		printf("Qual o candidato vc vai  votar?\n Digite 1 para João \n Digite 2 para Anderson \n" );
+		printf("Qual o candidato vc vai  votar?\n Digite 1 para Joï¿½o \n Digite 2 para Anderson \n" );
 		scanf("%d", &valor );
 		if(valor == 1)
 		{
@@ -21,8 +21,5 @@ int main()
 	printf("candidato 1 recebeu: %d votos \n candidato 2 recebeu: %d votos ",candidato1,candidato2);
 	
 	
-	
-	
-
 
 }
