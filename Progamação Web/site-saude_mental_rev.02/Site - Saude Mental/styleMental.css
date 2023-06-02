@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Source+Code+Pro&display=swap');
+
+/*Reset da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: 0px;
+    color: #16e739;
+    
+    
+}
+
+
+body {
+    background: linear-gradient(-45deg, #000000, #1b1a6d, #250344, #6a0be6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+ 
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*Estilização da Barra de navegação (menu)*/
+header {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, .1);
+    /*  position: fixed; */
+    width: 100%;
+}
+
+nav {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;    
+    color: #16e739;
+}
+
+nav .logo img {
+    width: 4rem;
+    float: left;
+    margin-bottom: 10px;
+}
+
+nav h1 {
+    margin-left: -300px;
+    color: #16e739;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    color: #16e739;
+}
+
+.nav-list .item {
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 10px;
+    color: #16e739;
+    
+}
+
+.nav-list a:hover {
+    /* background-color: #49C8F5;
+    padding: 10px;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    color: #fff; */
+    /* padding: 10px; */
+    border-bottom: 3px solid #e209e2;
+    transition: 500ms;
+    font-size: 18px;
+     /* border-top: 2px solid #49C8F5; */
+
+}
+/* Fim da estilização da barra de navegação */
+
+
+
+
+
+/* Estilização da Página Principal */
+
+main {
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);
+}
+
+.definicao{
+    font-size: 18px;
+    width: 500px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: 120px;
+    margin-top: -580px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+    background-color: rgba(226, 114, 226, 0.089);
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);
+    /* margin: 50px; */
+    padding: 40px;
+    align-items: center;
+
+    
+}
+.definicao h1,h3{
+    padding-bottom: 10px;
+    
+}
+
+.definicao p a{
+    color: #e209e2;
+}
+
+.definicao p a:hover{
+    color: #16e739;
+    transition: 500ms;
+}
+
+.definicao p{
+    font-weight: 600;    
+    color: #e209e2;
+    
+}
+
+.rigth-home-image{
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.problemas h1{
+    font-size: 30px;   
+    text-align: center;     
+    margin-top: auto;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    
+    align-items: center;
+}
+
+.problemas p{
+    font-size: 16px;   
+    text-align: center;     
+    margin-top: auto;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.090);
+    align-items: center;
+    padding: 40px;
+}
+
+.card-container1, .card-container2 {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+/*     margin-left: 100px;
+    margin-right: 100px; */
+    
+}
+.card {
+    
+    margin: 5%;
+    padding: 20px; 
+    
+    width: 330px;
+    height: 380px;
+    background-color: rgba(138, 62, 238, 0.438);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.50);
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card no hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card img {
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-vittude {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .card-vittude h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .card-content p {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+  
+
+/* Fim da estilização da Página Principal */
+
+
+
+/*Estilização do Footer (rodapé)*/
+footer {
+    margin-top: 140px;
+    font-size: 15px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.8);
+    color: #16e739;
+    width: 100%;
+    min-height: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: #16e739;
+}
+
+footer p a{
+    color: #16e739;
+}
+
+footer p a:hover{
+    color: #e209e2;
+    transition: 500ms;
+    font-size: medium;        
+}
