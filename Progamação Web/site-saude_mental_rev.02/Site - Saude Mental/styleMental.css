@@ -227,6 +227,44 @@ main {
 
 /* Fim da estilização da Página Principal */
 
+/* Estilização da Tecnologia */
+.tecnologia{
+    font-size: 18px;
+    margin: 50px;
+    width: auto;
+    height: 450px;   
+    border-radius: 40px;
+    background-color: rgba(110, 107, 110, 0.089);
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);
+    /* margin: 50px; */
+    padding: 40px;
+    align-items: center;
+}
+
+.tecnologia h1{
+    font-size: 20px;        
+    margin-top: auto;      
+    align-items: center;
+}
+
+.tecnologia p,h2{
+    font-size: 18px;        
+    margin-top: auto;   
+    padding-top: 20px;    
+    align-items: center;
+}
+
+.tecnologia .imagem-tecnologia{
+    justify-content: center;
+}
+
+.imagem-centro{
+    width: 500px;
+    height: 500px;
+    
+    
+}
+
 
 
 /*Estilização do Footer (rodapé)*/
