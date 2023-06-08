@@ -103,9 +103,7 @@ nav h1 {
 
 /* Estilização da Página Principal */
 
-main {
-    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);
-}
+
 
 .definicao{
     font-size: 18px;
@@ -232,11 +230,10 @@ main {
     font-size: 18px;
     margin: 50px;
     width: auto;
-    height: 450px;   
+    height: auto;   
     border-radius: 40px;
     background-color: rgba(110, 107, 110, 0.089);
-    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);
-    /* margin: 50px; */
+    box-shadow: 0 15px 25px rgba(10, 10, 10, 0.5);    
     padding: 40px;
     align-items: center;
 }
@@ -253,6 +250,9 @@ main {
     padding-top: 20px;    
     align-items: center;
 }
+.tecnologia h2{
+    color: #e209e2;
+}
 
 .tecnologia .imagem-tecnologia{
     justify-content: center;
@@ -261,6 +261,7 @@ main {
 .imagem-centro{
     width: 500px;
     height: 500px;
+    margin-left: 30%;
     
     
 }
@@ -296,4 +297,38 @@ footer p a:hover{
     color: #e209e2;
     transition: 500ms;
     font-size: medium;        
+}
+.redes-soci img{
+    width: 85px;
+    height: auto;
+}
+.redes-soci{
+    display: flex;
+    margin-left:-10px ;
+    margin-top:40px ;
+}
+.redes-soci h2{
+    margin-top: 10px;
+}
+.redes-soci2 img{
+    width: 65px;
+    height: auto;
+    margin-left: 10px;
+}
+.redes-soci2{
+    display: flex;
+    margin-left:-10px ;
+}
+.redes-soci2 h2{
+    margin-top: 1px;
+    margin-left: 11px;
+}
+.referencias{
+    margin-left: 30%;
+    margin-right: 35%;
+    margin-top: 4%;
+    background-color: rgba(10, 10, 10, 0.644);
+    padding-left: 50px;
+    padding-bottom: 40px;
+    border-radius: 15px;
 }
