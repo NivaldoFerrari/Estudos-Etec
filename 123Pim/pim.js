@@ -6,6 +6,11 @@ function fazPim(){
         i++
         if(i%4==0){
             paragrafo.innerHTML="PIM!!"
+            var audio = document.createElement("audio");
+            audio.src = "Audios/silvio-song.mp3"; 
+            audio.autoplay = true;
+
+            
         }else{
             paragrafo.innerHTML=i
         }
